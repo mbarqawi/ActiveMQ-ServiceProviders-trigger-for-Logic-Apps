@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ServiceProviders.ActiveMQ</id>
+    <version>1.0.0</version>
+    <authors>ServiceProviders.ActiveMQ</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Apache.NMS.AMQP" version="1.8.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Azure.WebJobs" version="3.0.25" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Azure.Workflows.WebJobs.Extension" version="1.0.1.1-preview" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\mobarqaw\Desktop\LAv2\ActiveMQArticle\ServiceProviders.ActiveMQ\bin\Release\netcoreapp3.1\ServiceProviders.ActiveMQ.dll" target="lib\netcoreapp3.1\ServiceProviders.ActiveMQ.dll" />
+  </files>
+</package>

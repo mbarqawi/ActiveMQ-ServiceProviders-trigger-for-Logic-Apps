@@ -1,0 +1,11 @@
+C:\Users\mobarqaw\Desktop\LAv2\ActiveMQArticle\ServiceProviders.ActiveMQ\bin\Debug\netcoreapp3.1\Microsoft.Azure.Workflows.BuildTasks.DebugSymbolGenerator.runtimeconfig.json
+C:\Users\mobarqaw\Desktop\LAv2\ActiveMQArticle\ServiceProviders.ActiveMQ\bin\Debug\netcoreapp3.1\ServiceProviders.ActiveMQ.deps.json
+C:\Users\mobarqaw\Desktop\LAv2\ActiveMQArticle\ServiceProviders.ActiveMQ\bin\Debug\netcoreapp3.1\ServiceProviders.ActiveMQ.dll
+C:\Users\mobarqaw\Desktop\LAv2\ActiveMQArticle\ServiceProviders.ActiveMQ\bin\Debug\netcoreapp3.1\ServiceProviders.ActiveMQ.pdb
+C:\Users\mobarqaw\Desktop\LAv2\ActiveMQArticle\ServiceProviders.ActiveMQ\obj\Debug\netcoreapp3.1\ServiceProviders.ActiveMQ.Resource1.resources
+C:\Users\mobarqaw\Desktop\LAv2\ActiveMQArticle\ServiceProviders.ActiveMQ\obj\Debug\netcoreapp3.1\ServiceProviders.ActiveMQ.csproj.GenerateResource.cache
+C:\Users\mobarqaw\Desktop\LAv2\ActiveMQArticle\ServiceProviders.ActiveMQ\obj\Debug\netcoreapp3.1\ServiceProviders.ActiveMQ.AssemblyInfoInputs.cache
+C:\Users\mobarqaw\Desktop\LAv2\ActiveMQArticle\ServiceProviders.ActiveMQ\obj\Debug\netcoreapp3.1\ServiceProviders.ActiveMQ.AssemblyInfo.cs
+C:\Users\mobarqaw\Desktop\LAv2\ActiveMQArticle\ServiceProviders.ActiveMQ\obj\Debug\netcoreapp3.1\ServiceProviders.ActiveMQ.csproj.CoreCompileInputs.cache
+C:\Users\mobarqaw\Desktop\LAv2\ActiveMQArticle\ServiceProviders.ActiveMQ\obj\Debug\netcoreapp3.1\ServiceProviders.ActiveMQ.dll
+C:\Users\mobarqaw\Desktop\LAv2\ActiveMQArticle\ServiceProviders.ActiveMQ\obj\Debug\netcoreapp3.1\ServiceProviders.ActiveMQ.pdb

@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mobarqaw\\Desktop\\LAv2\\ActiveMQArticle\\ServiceProviders.ActiveMQ\\ServiceProviders.ActiveMQ.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mobarqaw\\Desktop\\LAv2\\ActiveMQArticle\\ServiceProviders.ActiveMQ\\ServiceProviders.ActiveMQ.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mobarqaw\\Desktop\\LAv2\\ActiveMQArticle\\ServiceProviders.ActiveMQ\\ServiceProviders.ActiveMQ.csproj",
+        "projectName": "ServiceProviders.ActiveMQ",
+        "projectPath": "C:\\Users\\mobarqaw\\Desktop\\LAv2\\ActiveMQArticle\\ServiceProviders.ActiveMQ\\ServiceProviders.ActiveMQ.csproj",
+        "packagesPath": "C:\\Users\\mobarqaw\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mobarqaw\\Desktop\\LAv2\\ActiveMQArticle\\ServiceProviders.ActiveMQ\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mobarqaw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://msdata.pkgs.visualstudio.com/DefaultCollection/_packaging/SQLIS_Curated/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Apache.NMS.AMQP": {
+              "target": "Package",
+              "version": "[1.8.1, )"
+            },
+            "Microsoft.Azure.WebJobs": {
+              "target": "Package",
+              "version": "[3.0.25, )"
+            },
+            "Microsoft.Azure.Workflows.WebJobs.Extension": {
+              "target": "Package",
+              "version": "[1.0.1.1-preview, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
