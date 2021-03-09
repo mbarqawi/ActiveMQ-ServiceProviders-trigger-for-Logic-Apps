@@ -19,7 +19,7 @@ $extensionModulePath = Join-Path -Path $extensionModulePath -ChildPath "Function
 $extensionModulePath = Join-Path -Path $extensionModulePath -ChildPath "ExtensionBundles"
 $extensionModulePath = Join-Path -Path $extensionModulePath -ChildPath "Microsoft.Azure.Functions.ExtensionBundle.Workflows"
 
-$latest = Get-ChildItem -Path $extensionModulePath | Sort-Object LastAccessTime -Descending | Select-Object -First 1
+$latest = Get-ChildItem -Path $extensionModulePath | Sort-Object name -Descending | Select-Object -First 1
 $latest.name
 $extensionModulePath = Join-Path -Path $extensionModulePath  -ChildPath $latest.name 
 $extensionModulePath = Join-Path -Path $extensionModulePath  -ChildPath "bin"
@@ -59,5 +59,6 @@ $a | ConvertTo-Json -depth 32| set-content $extensionModulePath
 
 $spl = Split-Path $extensionModulePath
 Copy-Item $dll  -Destination $spl
+#start $extensionModulePath
 
 Write-host "Successfully added extension.. "

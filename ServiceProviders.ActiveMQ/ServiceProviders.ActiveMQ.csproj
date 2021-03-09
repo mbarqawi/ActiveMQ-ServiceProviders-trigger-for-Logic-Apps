@@ -51,7 +51,7 @@
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="rem powershell  &quot;Set-ExecutionPolicy RemoteSigned&quot;&#xD;&#xA;rem powershell &quot;$(ProjectDir)\Add_to_logic_app_designer.ps1 '$(TargetPath)'  'Activemq'  'ServiceProviders.ActiveMQ.Extension.ActiveMQTriggerStartup'&quot;" />
+    <Exec Command="powershell  &quot;Set-ExecutionPolicy RemoteSigned&quot;&#xD;&#xA;powershell &quot;$(ProjectDir)\Add_to_logic_app_designer.ps1 '$(TargetPath)'  'Activemq'  'ServiceProviders.ActiveMQ.Extension.ActiveMQTriggerStartup'&quot;" />
   </Target>
 
 </Project>

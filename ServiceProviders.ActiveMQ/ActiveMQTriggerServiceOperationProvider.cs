@@ -1,6 +1,4 @@
-﻿//------------------------------------------------------------
-// Copyright (c) Microsoft Corporation.  All rights reserved.
-//------------------------------------------------------------
+﻿
 
 namespace ServiceProviders.ActiveMQ.Extension
 {
@@ -206,7 +204,7 @@ namespace ServiceProviders.ActiveMQ.Extension
                                  "MaximumNo", new SwaggerSchema
                                 {
                                     Type = SwaggerSchemaType.Number,
-                                    Title = "Maximum number of messages in a single batch",
+                                    Title = "Maximum number of messages",
                                 }
                             },
                         },
@@ -350,14 +348,14 @@ namespace ServiceProviders.ActiveMQ.Extension
 
         public static readonly ServiceOperation ReceiveMessagesTrigger = new ServiceOperation
         {
-            Name = "ActiveMQ : ReceiveMessages",
-            Id = "ReceiveMessages",
-            Type = "ReceiveMessages",
+            Name = "ActiveMQ_ReceiveMessages",
+            Id = "ActiveMQ Receive Messages",
+            Type = "ActiveMQ ReceiveMessages",
             Properties = new ServiceOperationProperties
             {
                 Api = AtiveMQTriggerApi.GetFlattenedApi(),
-                Summary = "Receive Messages",
-                Description = "Receive Messages",
+                Summary = "ActiveMQ Receive Messages",
+                Description = "ActiveMQ Receive Messages",
                 Visibility = Visibility.Important,
                 OperationType = OperationType.ServiceProvider,
                 BrandColor = 0x1C3A56,
